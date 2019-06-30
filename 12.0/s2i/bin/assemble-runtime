@@ -3,7 +3,7 @@
 echo "Asssembling runtime environment..."
 DEPLOY_DIR=/wildfly/standalone/deployments
 CONFIG_DIR=/wildfly/standalone/configuration
-MODULES_DIR=/wildfly/provided_modules
+MODULES_DIR=/wildfly/modules
 
 echo "Creating deployment directories..."
 mkdir -p $DEPLOY_DIR
