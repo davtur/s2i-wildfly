@@ -342,9 +342,9 @@ fi
 mkdir /wildfly/provided_modules
 if [ -d $LOCAL_SOURCE_DIR/modules ]; then
   echo "Copying modules from project..."
-  cp -r modules/* /wildfly/provided_modules
-  chgrp -R 0 /wildfly/provided_modules
-  chmod -R g+rw /wildfly/provided_modules
+  cp -r modules/* /wildfly/modules
+  chgrp -R 0 /wildfly/modules
+  chmod -R g+rw /wildfly/modules
 fi
 echo "...done"
 
